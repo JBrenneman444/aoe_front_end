@@ -13,7 +13,7 @@ state = {
   handleAdd = (event, formInputs) => {
     event.preventDefault()
     // console.log(formInputs)
-    fetch('https://aoe-tribute-api.herokuapp.com/', {
+    fetch('https://aoe-tribute-api.herokuapp.com/civilizations', {
       body: JSON.stringify(formInputs),
       method: 'POST',
       headers: {
