@@ -1,7 +1,7 @@
 {
   "name": "aoe_tribute",
   "version": "0.1.0",
-  "proxy": "https://aoe-tribute-api.herokuapp.com/",
+  "proxy": "http://localhost:3000",
   "private": true,
   "engines": {
     "node": "14.0.0",
