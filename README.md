@@ -17,7 +17,7 @@ A web app that lists all the civilizations from the Age of Empires video game, s
 ## Wireframe / Planning
 
 Trello Board:
-![Trello Board](/src/images/TrelloProject4.png)
+![Trello Board](src/images/TrelloProject4.PNG)
 
 Relationships:
 
