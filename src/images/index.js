@@ -1,0 +1,1 @@
+export const aoeLogoTribute = require('./aoeLogoTribute.png'); 
