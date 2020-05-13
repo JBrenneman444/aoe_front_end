@@ -9,6 +9,10 @@ A web app that lists all the civilizations from the Age of Empires video game, s
 * SASS
 
 ## Approach Taken
+* Started off by thinking up what type of relationship I wanted to map out.
+* Since the app is based off a game I enjoy, I tried to make seomthing useful for fellow fans of the game.
+* Decided at first a one-to-many relationship was best but eventually went with an easier layout.
+* Could eventually do one-to-many and add more models.
 
 ## Unsolved problems
 * Initially had a **one-to-many, through** relationship but eventually started over because I couldn't get certain items to render.
