@@ -14,6 +14,14 @@ A web app that lists all the civilizations from the Age of Empires video game, s
 * Initially had a **one-to-many, through** relationship but eventually started over because I couldn't get certain items to render.
 * I THINK it would have worked and the problem wasn't with the relationships but, instead, was with the arrays (which I later fixed).
 
+## Wireframe / Planning
+
+Trello Board:
+![Trello Board](/src/images/TrelloProject4.png)
+
+Relationships:
+
+
 ## Link to the Website
 * Back-end: https://aoe-tribute-api.herokuapp.com/
 * Front-end: https://aoe-tribute-client.herokuapp.com/
