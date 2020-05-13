@@ -19,8 +19,8 @@ A web app that lists all the civilizations from the Age of Empires video game, s
 Trello Board:
 ![Trello Board](src/images/TrelloProject4.PNG)
 
-Relationships:
-
+[Original] Relationship:
+![Picture of One-to-Many Relationship](src/images/CivStyles.PNG)
 
 ## Link to the Website
 * Back-end: https://aoe-tribute-api.herokuapp.com/
