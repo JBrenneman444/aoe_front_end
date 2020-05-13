@@ -13,7 +13,7 @@ state = {
   handleAdd = (event, formInputs) => {
     event.preventDefault()
     // console.log(formInputs)
-    fetch('/civilizations', {
+    fetch('https://aoe-tribute-api.herokuapp.com/', {
       body: JSON.stringify(formInputs),
       method: 'POST',
       headers: {
@@ -31,7 +31,7 @@ state = {
  }
 
  handleDelete = (deletedCivilization) => {
-  fetch(`http://localhost:3000/civilizations/${deletedCivilization.id}`, {
+  fetch(`https://aoe-tribute-api.herokuapp.com/civilizations/${deletedCivilization.id}`, {
     method: "DELETE",
     headers: {
       'Accept': "application/json, text/plain, */*",
@@ -50,7 +50,7 @@ state = {
 handleUpdate = (event, formInputs) => {
   event.preventDefault();
   console.log("in it to win it");
-  fetch(`http://localhost:3000/civilizations/${formInputs.id}`, {
+  fetch(`https://aoe-tribute-api.herokuapp.com/civilizations/${formInputs.id}`, {
     body: JSON.stringify(formInputs),
     method: "PUT",
     headers: {
@@ -69,7 +69,7 @@ handleUpdate = (event, formInputs) => {
     this.getCivilizations()
   }
   getCivilizations () {
-    fetch('http://localhost:3000/civilizations')
+    fetch('https://aoe-tribute-api.herokuapp.com/civilizations')
       .then(response => response.json())
       .then(json => this.setState({civilizations: json}))
       .catch(error => console.error(error))
