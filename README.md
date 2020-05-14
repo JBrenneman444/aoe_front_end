@@ -27,6 +27,6 @@ Trello Board:
 [Original] Relationship:
 ![Picture of One-to-Many Relationship](src/images/CivStyles.PNG)
 
-## Link to the Website
+## Links to the Website and API
 * Back-end: https://aoe-tribute-api.herokuapp.com/
 * Front-end: https://aoe-tribute-client.herokuapp.com/
