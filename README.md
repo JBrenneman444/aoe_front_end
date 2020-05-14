@@ -5,6 +5,7 @@ A web app that lists all the civilizations from the Age of Empires video game, s
 * JavaScript
 * React.js, 
 * Ruby on Rails
+* PostgreSQL
 * CORS
 * SASS
 
